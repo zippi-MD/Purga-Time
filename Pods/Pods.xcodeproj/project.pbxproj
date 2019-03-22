@@ -1,0 +1,985 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		077B4BA7BEF24CCF5A0BF85E57AD9B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		09E6AA05A6BC0B2E752FEC60AF7F8CBE /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1F6CA0D78A98ED66128A08D2B0DC07 /* CircleProgressView.swift */; };
+		21FCB9F15F329C0852252FF455DF382C /* Pods-Purga Time-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC238212D26E800E3524E811A17396B4 /* Pods-Purga Time-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3411EF0D55EC3D70063B75986E276344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B536BE2B1AAA9DC33CF4E25D75F4980 /* ViewController.swift */; };
+		5806FD845A3FE9D570DB477DD943B0A8 /* CircleProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D498220D4642084B0828A91C9563751 /* CircleProgressView-dummy.m */; };
+		597296154580EA682FBD7233BC10CAC1 /* Pods-Purga TimeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D11868C7AB62DEC5A08831D2875414 /* Pods-Purga TimeUITests-dummy.m */; };
+		72BEDB9B650C36C932E7CC10F976729F /* Pods-Purga Time-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 984E1E144BD612C55EB7F3DB162DFAE5 /* Pods-Purga Time-dummy.m */; };
+		799002AADF880D044014A213042CD3C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		92BA1A661236563FDF5F3D483A87D852 /* Pods-Purga TimeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF0899EDF93A1E48AA0CA135AD246AF /* Pods-Purga TimeTests-dummy.m */; };
+		A397065DD4161E91379A819D9AAF1B5A /* CircleProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 025C3350A41DE2AF206749BE07F3A43D /* CircleProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB23F9EC5B42279F51CA41F7622140F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CEA447611D94CF17DBF27B3D24709C1F /* Pods-Purga TimeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB41AF0D4E4F0B20EB1AD28FB3E77B07 /* Pods-Purga TimeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAEF574BF162DBEBEBFBA214B832958A /* Pods-Purga TimeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F27F7F9CAB8821B8270267C0AD6C3F9 /* Pods-Purga TimeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB6007B8D5B1FCE7F800668C9233A28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EC6B7CC5C2386F9857AB920D9D708A /* AppDelegate.swift */; };
+		FF79AF65859473EF7C1D6F673E5EC816 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BEB9B343806F0B0968CAF0DDE072E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1028320781403B1CE710A8B91C419F;
+			remoteInfo = "Pods-Purga Time";
+		};
+		A7DB4457AE58464404892B8E96F6DCCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50C745D382670D7C4A96E144BCD86341;
+			remoteInfo = CircleProgressView;
+		};
+		EF001655F0BFD857C22BC451138DEA4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA1028320781403B1CE710A8B91C419F;
+			remoteInfo = "Pods-Purga Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0189E775CBF00472DDC90D6ED2D41380 /* Pods-Purga TimeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Purga TimeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		025C3350A41DE2AF206749BE07F3A43D /* CircleProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-umbrella.h"; sourceTree = "<group>"; };
+		0619902D39825BBC120AF0234A6B92BC /* Pods-Purga Time-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Purga Time-acknowledgements.plist"; sourceTree = "<group>"; };
+		06950F8589A3B36E8E6BD14B09A6F36A /* Pods-Purga Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Purga Time.release.xcconfig"; sourceTree = "<group>"; };
+		0B536BE2B1AAA9DC33CF4E25D75F4980 /* ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = CircleProgressView/ViewController.swift; sourceTree = "<group>"; };
+		0D1F6CA0D78A98ED66128A08D2B0DC07 /* CircleProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleProgressView.swift; path = CircleProgressView/CircleProgressView.swift; sourceTree = "<group>"; };
+		1045043D810E0AE5844C1FA26BC9B8DF /* Pods_Purga_TimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Purga_TimeUITests.framework; path = "Pods-Purga TimeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D11868C7AB62DEC5A08831D2875414 /* Pods-Purga TimeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Purga TimeUITests-dummy.m"; sourceTree = "<group>"; };
+		1A716F3C58CF5B495A7D2D40853C9149 /* Pods-Purga Time.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Purga Time.modulemap"; sourceTree = "<group>"; };
+		1D992EBE7EBB1B5C1A5D685C0F377437 /* Pods_Purga_TimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Purga_TimeTests.framework; path = "Pods-Purga TimeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2487C73FA2B13D7252EEFFEC800F37CA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B54BB97B4D817EAAAC8DECBB674D5C5 /* Pods-Purga TimeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Purga TimeUITests.modulemap"; sourceTree = "<group>"; };
+		30184544258DEA7DA081A4F66CDDFEAA /* Pods_Purga_Time.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Purga_Time.framework; path = "Pods-Purga Time.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3195D7802CEEDAF8B966FA6161F5675F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EC6B7CC5C2386F9857AB920D9D708A /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CircleProgressView/AppDelegate.swift; sourceTree = "<group>"; };
+		34E7583078C2EDE6F6E60BE3A27CB78E /* Pods-Purga TimeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Purga TimeTests-resources.sh"; sourceTree = "<group>"; };
+		443FB034BA065E198C765D374C1DF2FB /* CircleProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CircleProgressView.framework; path = CircleProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5237F2252483E809ABD3982E370A8B02 /* Pods-Purga TimeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Purga TimeUITests-frameworks.sh"; sourceTree = "<group>"; };
+		595B8B6E1479F2D94B9999A9F375EAF7 /* CircleProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleProgressView.xcconfig; sourceTree = "<group>"; };
+		6D498220D4642084B0828A91C9563751 /* CircleProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleProgressView-dummy.m"; sourceTree = "<group>"; };
+		7325D5D60A727505C69C0F31DCC70DD2 /* Pods-Purga Time-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Purga Time-frameworks.sh"; sourceTree = "<group>"; };
+		7F27F7F9CAB8821B8270267C0AD6C3F9 /* Pods-Purga TimeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Purga TimeUITests-umbrella.h"; sourceTree = "<group>"; };
+		86674DEFC27E7B00883DCB4729FA6508 /* Pods-Purga Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Purga Time.debug.xcconfig"; sourceTree = "<group>"; };
+		897F9DAF2BE72A260C857769C4FC0B54 /* Pods-Purga TimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Purga TimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9096578BD2AE3B99E4C149EB67D639DD /* Pods-Purga Time-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Purga Time-acknowledgements.markdown"; sourceTree = "<group>"; };
+		984E1E144BD612C55EB7F3DB162DFAE5 /* Pods-Purga Time-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Purga Time-dummy.m"; sourceTree = "<group>"; };
+		A6A2964C612B62B53CEB7B6A4316DA40 /* Pods-Purga TimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Purga TimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A72914154E1ECAAAD48D913ABB60FA40 /* Pods-Purga TimeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Purga TimeTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B470AD4D1BACD67956E78B20D4E72CD1 /* Pods-Purga TimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Purga TimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B68929242D19F003C72486EF007A3A69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA80719A3CE7D6CFACB73C7EC2784746 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7B85A17007029A8949F32BF32D48C1 /* Pods-Purga TimeUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Purga TimeUITests-resources.sh"; sourceTree = "<group>"; };
+		C052ECABB903AC363BF3685E8C70C0F1 /* Pods-Purga TimeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Purga TimeTests.modulemap"; sourceTree = "<group>"; };
+		C0DF903F029D15AB45EF6B11868888E6 /* CircleProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CircleProgressView.modulemap; sourceTree = "<group>"; };
+		C22E6A438D52E221C6C6F211D520A8DE /* Pods-Purga Time-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Purga Time-resources.sh"; sourceTree = "<group>"; };
+		C528B06A8E1D070F3B4EDDD3A4DBAFE6 /* CircleProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleProgressView-prefix.pch"; sourceTree = "<group>"; };
+		C9AB94ABCFC2F6F2392155832CD4E3D3 /* Pods-Purga TimeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Purga TimeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CA56ABD4CBAD5F0990803AF77E1A8E23 /* Pods-Purga TimeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Purga TimeTests-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC238212D26E800E3524E811A17396B4 /* Pods-Purga Time-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Purga Time-umbrella.h"; sourceTree = "<group>"; };
+		D7DEADFBF914AD30898BC734925972E1 /* Pods-Purga TimeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Purga TimeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB6F0A1EF7AF20F35717B11979F0900A /* Pods-Purga TimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Purga TimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EEF0899EDF93A1E48AA0CA135AD246AF /* Pods-Purga TimeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Purga TimeTests-dummy.m"; sourceTree = "<group>"; };
+		FB41AF0D4E4F0B20EB1AD28FB3E77B07 /* Pods-Purga TimeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Purga TimeTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566B70926FE026510CDA1C1A66D2F9EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799002AADF880D044014A213042CD3C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C3E8AD8446C2E4BAE53A3CA1658AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB23F9EC5B42279F51CA41F7622140F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF1F7EE46B54E75F38F6CD49A30AD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				077B4BA7BEF24CCF5A0BF85E57AD9B2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBAAB3AB14AA92DBB190261329136C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF79AF65859473EF7C1D6F673E5EC816 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72FA9621519C71E99DA37BAD4519EDD4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C951DD6AA65D754F94C2F1872D9A040 /* CircleProgressView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77BA78D3C1E92ADBC010F4612497CF11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE7EC9D345C983AF4CEC866E16FCE56A /* Pods-Purga Time */,
+				C76458B7DBCB5A1A1309EB6E336CCBAF /* Pods-Purga TimeTests */,
+				E59EA8FC4C619DCBC528B4856BB4C54C /* Pods-Purga TimeUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		824A6A3AEBB448F54C602FA8A54509A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443FB034BA065E198C765D374C1DF2FB /* CircleProgressView.framework */,
+				30184544258DEA7DA081A4F66CDDFEAA /* Pods_Purga_Time.framework */,
+				1D992EBE7EBB1B5C1A5D685C0F377437 /* Pods_Purga_TimeTests.framework */,
+				1045043D810E0AE5844C1FA26BC9B8DF /* Pods_Purga_TimeUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C951DD6AA65D754F94C2F1872D9A040 /* CircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				33EC6B7CC5C2386F9857AB920D9D708A /* AppDelegate.swift */,
+				0D1F6CA0D78A98ED66128A08D2B0DC07 /* CircleProgressView.swift */,
+				0B536BE2B1AAA9DC33CF4E25D75F4980 /* ViewController.swift */,
+				9B1F08AA233D4080E87BF866AF571C92 /* Support Files */,
+			);
+			name = CircleProgressView;
+			path = CircleProgressView;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B1F08AA233D4080E87BF866AF571C92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0DF903F029D15AB45EF6B11868888E6 /* CircleProgressView.modulemap */,
+				595B8B6E1479F2D94B9999A9F375EAF7 /* CircleProgressView.xcconfig */,
+				6D498220D4642084B0828A91C9563751 /* CircleProgressView-dummy.m */,
+				C528B06A8E1D070F3B4EDDD3A4DBAFE6 /* CircleProgressView-prefix.pch */,
+				025C3350A41DE2AF206749BE07F3A43D /* CircleProgressView-umbrella.h */,
+				BA80719A3CE7D6CFACB73C7EC2784746 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleProgressView";
+			sourceTree = "<group>";
+		};
+		C76458B7DBCB5A1A1309EB6E336CCBAF /* Pods-Purga TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2487C73FA2B13D7252EEFFEC800F37CA /* Info.plist */,
+				C052ECABB903AC363BF3685E8C70C0F1 /* Pods-Purga TimeTests.modulemap */,
+				D7DEADFBF914AD30898BC734925972E1 /* Pods-Purga TimeTests-acknowledgements.markdown */,
+				A72914154E1ECAAAD48D913ABB60FA40 /* Pods-Purga TimeTests-acknowledgements.plist */,
+				EEF0899EDF93A1E48AA0CA135AD246AF /* Pods-Purga TimeTests-dummy.m */,
+				CA56ABD4CBAD5F0990803AF77E1A8E23 /* Pods-Purga TimeTests-frameworks.sh */,
+				34E7583078C2EDE6F6E60BE3A27CB78E /* Pods-Purga TimeTests-resources.sh */,
+				FB41AF0D4E4F0B20EB1AD28FB3E77B07 /* Pods-Purga TimeTests-umbrella.h */,
+				A6A2964C612B62B53CEB7B6A4316DA40 /* Pods-Purga TimeTests.debug.xcconfig */,
+				897F9DAF2BE72A260C857769C4FC0B54 /* Pods-Purga TimeTests.release.xcconfig */,
+			);
+			name = "Pods-Purga TimeTests";
+			path = "Target Support Files/Pods-Purga TimeTests";
+			sourceTree = "<group>";
+		};
+		CE7EC9D345C983AF4CEC866E16FCE56A /* Pods-Purga Time */ = {
+			isa = PBXGroup;
+			children = (
+				3195D7802CEEDAF8B966FA6161F5675F /* Info.plist */,
+				1A716F3C58CF5B495A7D2D40853C9149 /* Pods-Purga Time.modulemap */,
+				9096578BD2AE3B99E4C149EB67D639DD /* Pods-Purga Time-acknowledgements.markdown */,
+				0619902D39825BBC120AF0234A6B92BC /* Pods-Purga Time-acknowledgements.plist */,
+				984E1E144BD612C55EB7F3DB162DFAE5 /* Pods-Purga Time-dummy.m */,
+				7325D5D60A727505C69C0F31DCC70DD2 /* Pods-Purga Time-frameworks.sh */,
+				C22E6A438D52E221C6C6F211D520A8DE /* Pods-Purga Time-resources.sh */,
+				CC238212D26E800E3524E811A17396B4 /* Pods-Purga Time-umbrella.h */,
+				86674DEFC27E7B00883DCB4729FA6508 /* Pods-Purga Time.debug.xcconfig */,
+				06950F8589A3B36E8E6BD14B09A6F36A /* Pods-Purga Time.release.xcconfig */,
+			);
+			name = "Pods-Purga Time";
+			path = "Target Support Files/Pods-Purga Time";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				72FA9621519C71E99DA37BAD4519EDD4 /* Pods */,
+				824A6A3AEBB448F54C602FA8A54509A4 /* Products */,
+				77BA78D3C1E92ADBC010F4612497CF11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E59EA8FC4C619DCBC528B4856BB4C54C /* Pods-Purga TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B68929242D19F003C72486EF007A3A69 /* Info.plist */,
+				2B54BB97B4D817EAAAC8DECBB674D5C5 /* Pods-Purga TimeUITests.modulemap */,
+				0189E775CBF00472DDC90D6ED2D41380 /* Pods-Purga TimeUITests-acknowledgements.markdown */,
+				C9AB94ABCFC2F6F2392155832CD4E3D3 /* Pods-Purga TimeUITests-acknowledgements.plist */,
+				12D11868C7AB62DEC5A08831D2875414 /* Pods-Purga TimeUITests-dummy.m */,
+				5237F2252483E809ABD3982E370A8B02 /* Pods-Purga TimeUITests-frameworks.sh */,
+				BD7B85A17007029A8949F32BF32D48C1 /* Pods-Purga TimeUITests-resources.sh */,
+				7F27F7F9CAB8821B8270267C0AD6C3F9 /* Pods-Purga TimeUITests-umbrella.h */,
+				B470AD4D1BACD67956E78B20D4E72CD1 /* Pods-Purga TimeUITests.debug.xcconfig */,
+				EB6F0A1EF7AF20F35717B11979F0900A /* Pods-Purga TimeUITests.release.xcconfig */,
+			);
+			name = "Pods-Purga TimeUITests";
+			path = "Target Support Files/Pods-Purga TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C1E3EC28FB1C09AE1EA1CB61C398E23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA447611D94CF17DBF27B3D24709C1F /* Pods-Purga TimeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C303298BE42A37C6433CD56D4B59C42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAEF574BF162DBEBEBFBA214B832958A /* Pods-Purga TimeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E350C9240C15AE6D204534CE59C05A82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A397065DD4161E91379A819D9AAF1B5A /* CircleProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7CDF546E2D95EF5A2CC3E133F11D6CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FCB9F15F329C0852252FF455DF382C /* Pods-Purga Time-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50C745D382670D7C4A96E144BCD86341 /* CircleProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156C16E7C3247A7ECB1CF2FB634B0068 /* Build configuration list for PBXNativeTarget "CircleProgressView" */;
+			buildPhases = (
+				E350C9240C15AE6D204534CE59C05A82 /* Headers */,
+				14A89D7AF883FEB57A135627684FA3DC /* Sources */,
+				94C3E8AD8446C2E4BAE53A3CA1658AD1 /* Frameworks */,
+				ADC97EB8EBBEAF03738414B38C68AAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressView;
+			productName = CircleProgressView;
+			productReference = 443FB034BA065E198C765D374C1DF2FB /* CircleProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DCE6C4900738744C9404AA504BAEC0C /* Pods-Purga TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F8F7A19805685AD157C9ED0FCB40B1B /* Build configuration list for PBXNativeTarget "Pods-Purga TimeUITests" */;
+			buildPhases = (
+				9C303298BE42A37C6433CD56D4B59C42 /* Headers */,
+				B23A450E46858EEAE048EFE84C793C88 /* Sources */,
+				CAF1F7EE46B54E75F38F6CD49A30AD99 /* Frameworks */,
+				33CA997F12F1C83CD1A6DF09DADE2F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				683E007844DB2B7EE1B8CCCA8775CDB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Purga TimeUITests";
+			productName = "Pods-Purga TimeUITests";
+			productReference = 1045043D810E0AE5844C1FA26BC9B8DF /* Pods_Purga_TimeUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA1028320781403B1CE710A8B91C419F /* Pods-Purga Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26AE76E8A7A546AED3C1A209CF669658 /* Build configuration list for PBXNativeTarget "Pods-Purga Time" */;
+			buildPhases = (
+				F7CDF546E2D95EF5A2CC3E133F11D6CA /* Headers */,
+				365B3E3670AC1BD4698B7908B9133E67 /* Sources */,
+				566B70926FE026510CDA1C1A66D2F9EF /* Frameworks */,
+				6D7C14BB0B53879AC7416BDC2B407717 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B62086FA251A114B00342700CEBFA848 /* PBXTargetDependency */,
+			);
+			name = "Pods-Purga Time";
+			productName = "Pods-Purga Time";
+			productReference = 30184544258DEA7DA081A4F66CDDFEAA /* Pods_Purga_Time.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1A84F7CF059CA0506C5ED7AF4366299 /* Pods-Purga TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F1A1ACE6D289AD3C437098BA646725 /* Build configuration list for PBXNativeTarget "Pods-Purga TimeTests" */;
+			buildPhases = (
+				5C1E3EC28FB1C09AE1EA1CB61C398E23 /* Headers */,
+				92102F286F9A030DCDF7879C24D39118 /* Sources */,
+				FBAAB3AB14AA92DBB190261329136C58 /* Frameworks */,
+				A11D6CCCB444B12476D11596748881EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC00CFC76B00C0DEE8CA2AE4CE0E7789 /* PBXTargetDependency */,
+			);
+			name = "Pods-Purga TimeTests";
+			productName = "Pods-Purga TimeTests";
+			productReference = 1D992EBE7EBB1B5C1A5D685C0F377437 /* Pods_Purga_TimeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 824A6A3AEBB448F54C602FA8A54509A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50C745D382670D7C4A96E144BCD86341 /* CircleProgressView */,
+				CA1028320781403B1CE710A8B91C419F /* Pods-Purga Time */,
+				F1A84F7CF059CA0506C5ED7AF4366299 /* Pods-Purga TimeTests */,
+				8DCE6C4900738744C9404AA504BAEC0C /* Pods-Purga TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33CA997F12F1C83CD1A6DF09DADE2F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7C14BB0B53879AC7416BDC2B407717 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11D6CCCB444B12476D11596748881EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC97EB8EBBEAF03738414B38C68AAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A89D7AF883FEB57A135627684FA3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6007B8D5B1FCE7F800668C9233A28E /* AppDelegate.swift in Sources */,
+				5806FD845A3FE9D570DB477DD943B0A8 /* CircleProgressView-dummy.m in Sources */,
+				09E6AA05A6BC0B2E752FEC60AF7F8CBE /* CircleProgressView.swift in Sources */,
+				3411EF0D55EC3D70063B75986E276344 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		365B3E3670AC1BD4698B7908B9133E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72BEDB9B650C36C932E7CC10F976729F /* Pods-Purga Time-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92102F286F9A030DCDF7879C24D39118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BA1A661236563FDF5F3D483A87D852 /* Pods-Purga TimeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23A450E46858EEAE048EFE84C793C88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				597296154580EA682FBD7233BC10CAC1 /* Pods-Purga TimeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		683E007844DB2B7EE1B8CCCA8775CDB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Purga Time";
+			target = CA1028320781403B1CE710A8B91C419F /* Pods-Purga Time */;
+			targetProxy = 32BEB9B343806F0B0968CAF0DDE072E6 /* PBXContainerItemProxy */;
+		};
+		B62086FA251A114B00342700CEBFA848 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleProgressView;
+			target = 50C745D382670D7C4A96E144BCD86341 /* CircleProgressView */;
+			targetProxy = A7DB4457AE58464404892B8E96F6DCCA /* PBXContainerItemProxy */;
+		};
+		FC00CFC76B00C0DEE8CA2AE4CE0E7789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Purga Time";
+			target = CA1028320781403B1CE710A8B91C419F /* Pods-Purga Time */;
+			targetProxy = EF001655F0BFD857C22BC451138DEA4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068A219F9C384FD572D523EEE317D0C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		24783185D5CDEBB688A01FADAE74ECCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B470AD4D1BACD67956E78B20D4E72CD1 /* Pods-Purga TimeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Purga TimeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Purga TimeUITests/Pods-Purga TimeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31F04A7F10D87F9F584DD6968F4B95C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A2964C612B62B53CEB7B6A4316DA40 /* Pods-Purga TimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Purga TimeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Purga TimeTests/Pods-Purga TimeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A6A94B0237E5746BED057A0629ED51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86674DEFC27E7B00883DCB4729FA6508 /* Pods-Purga Time.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Purga Time/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Purga Time/Pods-Purga Time.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6442547E49E05FA359B176BF8364A0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6F0A1EF7AF20F35717B11979F0900A /* Pods-Purga TimeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Purga TimeUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Purga TimeUITests/Pods-Purga TimeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8EB40AF3BDEA70C7043FEF0704F2A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 897F9DAF2BE72A260C857769C4FC0B54 /* Pods-Purga TimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Purga TimeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Purga TimeTests/Pods-Purga TimeTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EB34774E3DC17CF36E982D31C8DAE7B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595B8B6E1479F2D94B9999A9F375EAF7 /* CircleProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F079282F202EC26890720B0D1C4D2AD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595B8B6E1479F2D94B9999A9F375EAF7 /* CircleProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleProgressView/CircleProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CircleProgressView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CircleProgressView/CircleProgressView.modulemap";
+				PRODUCT_MODULE_NAME = CircleProgressView;
+				PRODUCT_NAME = CircleProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFE0553D5A89CA1E65D7070079F14730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06950F8589A3B36E8E6BD14B09A6F36A /* Pods-Purga Time.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Purga Time/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Purga Time/Pods-Purga Time.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156C16E7C3247A7ECB1CF2FB634B0068 /* Build configuration list for PBXNativeTarget "CircleProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F079282F202EC26890720B0D1C4D2AD8 /* Debug */,
+				EB34774E3DC17CF36E982D31C8DAE7B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F8F7A19805685AD157C9ED0FCB40B1B /* Build configuration list for PBXNativeTarget "Pods-Purga TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24783185D5CDEBB688A01FADAE74ECCF /* Debug */,
+				6442547E49E05FA359B176BF8364A0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26AE76E8A7A546AED3C1A209CF669658 /* Build configuration list for PBXNativeTarget "Pods-Purga Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6A94B0237E5746BED057A0629ED51E /* Debug */,
+				FFE0553D5A89CA1E65D7070079F14730 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29B0B57C53FF8C9953CE2983686A7F9 /* Debug */,
+				068A219F9C384FD572D523EEE317D0C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F1A1ACE6D289AD3C437098BA646725 /* Build configuration list for PBXNativeTarget "Pods-Purga TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F04A7F10D87F9F584DD6968F4B95C3 /* Debug */,
+				A8EB40AF3BDEA70C7043FEF0704F2A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -14,6 +14,9 @@
 		56A1F78C2245302700B91079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A1F78A2245302700B91079 /* LaunchScreen.storyboard */; };
 		56A1F7972245302700B91079 /* Purga_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A1F7962245302700B91079 /* Purga_TimeTests.swift */; };
 		56A1F7A22245302700B91079 /* Purga_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A1F7A12245302700B91079 /* Purga_TimeUITests.swift */; };
+		A75089A49F8ACDE07DB4FB69 /* Pods_Purga_TimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AB8C3276B6D28FC14034DE /* Pods_Purga_TimeUITests.framework */; };
+		BF196FFCFC531A82A3C47D1F /* Pods_Purga_TimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6869FE7F2C40C78EA82FFAA9 /* Pods_Purga_TimeTests.framework */; };
+		C54FA615FE5CCB84385720E6 /* Pods_Purga_Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE836DC7CAF98BAE336C8EF1 /* Pods_Purga_Time.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13958358F81ED283000B177D /* Pods-Purga TimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga TimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purga TimeTests/Pods-Purga TimeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		56A1F77E2245302500B91079 /* Purga Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Purga Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A1F7812245302600B91079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56A1F7832245302600B91079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		56A1F79D2245302700B91079 /* Purga TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purga TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A1F7A12245302700B91079 /* Purga_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purga_TimeUITests.swift; sourceTree = "<group>"; };
 		56A1F7A32245302700B91079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67D94537639CF95DED085507 /* Pods-Purga TimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga TimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purga TimeUITests/Pods-Purga TimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6869FE7F2C40C78EA82FFAA9 /* Pods_Purga_TimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purga_TimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE4133C9E22B309A293AFA7 /* Pods-Purga Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga Time.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purga Time/Pods-Purga Time.release.xcconfig"; sourceTree = "<group>"; };
+		B8432BD3802B17684B3511EC /* Pods-Purga TimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga TimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purga TimeUITests/Pods-Purga TimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1AB8C3276B6D28FC14034DE /* Pods_Purga_TimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purga_TimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65C587B19EC6175641CAE23 /* Pods-Purga TimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga TimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purga TimeTests/Pods-Purga TimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7EECF64B329FAB2AEC34011 /* Pods-Purga Time.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga Time.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Purga Time/Pods-Purga Time.debug.xcconfig"; sourceTree = "<group>"; };
+		FE836DC7CAF98BAE336C8EF1 /* Pods_Purga_Time.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purga_Time.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54FA615FE5CCB84385720E6 /* Pods_Purga_Time.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF196FFCFC531A82A3C47D1F /* Pods_Purga_TimeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A75089A49F8ACDE07DB4FB69 /* Pods_Purga_TimeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				56A1F7952245302700B91079 /* Purga TimeTests */,
 				56A1F7A02245302700B91079 /* Purga TimeUITests */,
 				56A1F77F2245302500B91079 /* Products */,
+				59A5BE20118E6302D22BBE68 /* Pods */,
+				E5745A9738BDE8901683B7CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = "Purga TimeUITests";
 			sourceTree = "<group>";
 		};
+		59A5BE20118E6302D22BBE68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7EECF64B329FAB2AEC34011 /* Pods-Purga Time.debug.xcconfig */,
+				9EE4133C9E22B309A293AFA7 /* Pods-Purga Time.release.xcconfig */,
+				13958358F81ED283000B177D /* Pods-Purga TimeTests.debug.xcconfig */,
+				E65C587B19EC6175641CAE23 /* Pods-Purga TimeTests.release.xcconfig */,
+				B8432BD3802B17684B3511EC /* Pods-Purga TimeUITests.debug.xcconfig */,
+				67D94537639CF95DED085507 /* Pods-Purga TimeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5745A9738BDE8901683B7CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE836DC7CAF98BAE336C8EF1 /* Pods_Purga_Time.framework */,
+				6869FE7F2C40C78EA82FFAA9 /* Pods_Purga_TimeTests.framework */,
+				C1AB8C3276B6D28FC14034DE /* Pods_Purga_TimeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56A1F7A62245302700B91079 /* Build configuration list for PBXNativeTarget "Purga Time" */;
 			buildPhases = (
+				96C8119A32FE38137E4E9456 /* [CP] Check Pods Manifest.lock */,
 				56A1F77A2245302500B91079 /* Sources */,
 				56A1F77B2245302500B91079 /* Frameworks */,
 				56A1F77C2245302500B91079 /* Resources */,
+				2D9CAA2DBF0049F3805852F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56A1F7A92245302700B91079 /* Build configuration list for PBXNativeTarget "Purga TimeTests" */;
 			buildPhases = (
+				C61C6303A5F215C5EEE3ED1E /* [CP] Check Pods Manifest.lock */,
 				56A1F78E2245302700B91079 /* Sources */,
 				56A1F78F2245302700B91079 /* Frameworks */,
 				56A1F7902245302700B91079 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 56A1F7AC2245302700B91079 /* Build configuration list for PBXNativeTarget "Purga TimeUITests" */;
 			buildPhases = (
+				CF5A8F396ACD3EDF25EFF182 /* [CP] Check Pods Manifest.lock */,
 				56A1F7992245302700B91079 /* Sources */,
 				56A1F79A2245302700B91079 /* Frameworks */,
 				56A1F79B2245302700B91079 /* Resources */,
@@ -250,6 +294,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9CAA2DBF0049F3805852F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Purga Time/Pods-Purga Time-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CircleProgressView/CircleProgressView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleProgressView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Purga Time/Pods-Purga Time-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96C8119A32FE38137E4E9456 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Purga Time-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C61C6303A5F215C5EEE3ED1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Purga TimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF5A8F396ACD3EDF25EFF182 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Purga TimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		56A1F77A2245302500B91079 /* Sources */ = {
@@ -430,6 +565,7 @@
 		};
 		56A1F7A72245302700B91079 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7EECF64B329FAB2AEC34011 /* Pods-Purga Time.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +584,7 @@
 		};
 		56A1F7A82245302700B91079 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE4133C9E22B309A293AFA7 /* Pods-Purga Time.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +603,7 @@
 		};
 		56A1F7AA2245302700B91079 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13958358F81ED283000B177D /* Pods-Purga TimeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +625,7 @@
 		};
 		56A1F7AB2245302700B91079 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65C587B19EC6175641CAE23 /* Pods-Purga TimeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +647,7 @@
 		};
 		56A1F7AD2245302700B91079 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8432BD3802B17684B3511EC /* Pods-Purga TimeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +668,7 @@
 		};
 		56A1F7AE2245302700B91079 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D94537639CF95DED085507 /* Pods-Purga TimeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

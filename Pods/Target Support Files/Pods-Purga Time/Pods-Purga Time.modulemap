@@ -1,0 +1,6 @@
+framework module Pods_Purga_Time {
+  umbrella header "Pods-Purga Time-umbrella.h"
+
+  export *
+  module * { export * }
+}
