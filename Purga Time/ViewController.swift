@@ -8,6 +8,7 @@
 
 import UIKit
 import CircleProgressView
+import UserNotifications
 
 class ViewController: UIViewController {
 
@@ -41,6 +42,10 @@ class ViewController: UIViewController {
         label.text = sentence + "\(Int(self.remaining)) " + units
         return label
     }()
+    
+    let center = UNUserNotificationCenter.current()
+    
+    let defaults = UserDefaults.standard
     
     var percentage : Double!
     var remaining : Double!
@@ -78,6 +83,24 @@ class ViewController: UIViewController {
             self.percentage = 1 - Double(remaining / 12.0)
         }
         
+        
+        
+        center.requestAuthorization(options: [.alert, .badge, .sound], completionHandler: ({ (granted, error) in
+            if(granted){
+                if !self.defaults.bool(forKey: "Notifications") {
+                    self.scheduleNotifications()
+                }
+            }
+            else {
+                
+                DispatchQueue.main.async {
+                    let alert = UIAlertController(title: "Error", message: "Por favor activa las notificaciones", preferredStyle: .alert)
+                    self.present(alert, animated: true)
+                }
+                
+            }
+        }))
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -95,6 +118,49 @@ class ViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         
         self.purgeProgress.setProgress(percentage, animated: true)
+    }
+    
+    func scheduleNotifications(){
+        
+        defaults.set(true, forKey: "Notifications")
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Purga-Inicio"
+        content.body =
+        """
+            Esto no es un simulacro.
+            Este es su sistema de alerta anunciando el inicio de La Purga Diaria.
+            Bullying de clase 4 o menos serán autorizadas para usarse durante La Purga. Otras clases de bullying están restringidas.
+            Al sonar la sirena, todo bullying, incluído el uso de apodos, será legal por una hora continua. Policía, bomberos y servicios de emergencia estarán desactivados hasta después de 1 horas cuando La Purga concluya.
+            El iOS Development Lab les agradece su participación
+            Un nuevo laboratorio está surgiendo.
+            Que Dios esté con todos ustedes.
+        
+        """
+        content.sound = UNNotificationSound.default
+        
+        var morningDateComponents = DateComponents()
+        morningDateComponents.hour = 11
+        morningDateComponents.minute = 0
+        
+        let trigger_morning = UNCalendarNotificationTrigger(dateMatching: morningDateComponents, repeats: true)
+        
+        let request_morning = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger_morning)
+        
+        center.add(request_morning)
+        
+        
+        var nightDateComponents = DateComponents()
+        nightDateComponents.hour = 23
+        nightDateComponents.minute = 0
+        
+        let trigger_night = UNCalendarNotificationTrigger(dateMatching: nightDateComponents, repeats: true)
+        let request_night = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger_night)
+        
+        center.add(request_night)
+        
+        
+
     }
 
 
