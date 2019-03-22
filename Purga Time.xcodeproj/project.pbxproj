@@ -14,6 +14,7 @@
 		56A1F78C2245302700B91079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A1F78A2245302700B91079 /* LaunchScreen.storyboard */; };
 		56A1F7972245302700B91079 /* Purga_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A1F7962245302700B91079 /* Purga_TimeTests.swift */; };
 		56A1F7A22245302700B91079 /* Purga_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A1F7A12245302700B91079 /* Purga_TimeUITests.swift */; };
+		56CF5A23224535E2009E034A /* FastConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF5A22224535E2009E034A /* FastConstraints.swift */; };
 		A75089A49F8ACDE07DB4FB69 /* Pods_Purga_TimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AB8C3276B6D28FC14034DE /* Pods_Purga_TimeUITests.framework */; };
 		BF196FFCFC531A82A3C47D1F /* Pods_Purga_TimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6869FE7F2C40C78EA82FFAA9 /* Pods_Purga_TimeTests.framework */; };
 		C54FA615FE5CCB84385720E6 /* Pods_Purga_Time.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE836DC7CAF98BAE336C8EF1 /* Pods_Purga_Time.framework */; };
@@ -51,6 +52,7 @@
 		56A1F79D2245302700B91079 /* Purga TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purga TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A1F7A12245302700B91079 /* Purga_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purga_TimeUITests.swift; sourceTree = "<group>"; };
 		56A1F7A32245302700B91079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CF5A22224535E2009E034A /* FastConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FastConstraints.swift; sourceTree = "<group>"; };
 		67D94537639CF95DED085507 /* Pods-Purga TimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga TimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purga TimeUITests/Pods-Purga TimeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6869FE7F2C40C78EA82FFAA9 /* Pods_Purga_TimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Purga_TimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE4133C9E22B309A293AFA7 /* Pods-Purga Time.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Purga Time.release.xcconfig"; path = "Pods/Target Support Files/Pods-Purga Time/Pods-Purga Time.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				56A1F7812245302600B91079 /* AppDelegate.swift */,
 				56A1F7832245302600B91079 /* ViewController.swift */,
+				56CF5A22224535E2009E034A /* FastConstraints.swift */,
 				56A1F7852245302600B91079 /* Main.storyboard */,
 				56A1F7882245302700B91079 /* Assets.xcassets */,
 				56A1F78A2245302700B91079 /* LaunchScreen.storyboard */,
@@ -393,6 +396,7 @@
 			files = (
 				56A1F7842245302600B91079 /* ViewController.swift in Sources */,
 				56A1F7822245302600B91079 /* AppDelegate.swift in Sources */,
+				56CF5A23224535E2009E034A /* FastConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
